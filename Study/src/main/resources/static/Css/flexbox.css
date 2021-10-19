@@ -1,0 +1,67 @@
+.container {
+    background: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+
+
+
+}
+
+.item {
+    width: 100px;
+    height: 40px;
+
+}
+
+.item1 {
+    flex-grow: 2;
+    flex-shrink: 2;
+    background: #ef9a9a;
+    padding: 10px;
+    order:4;
+}
+
+.item2 {
+    order:3;
+    background: red;
+}
+
+.item3 {
+    order:2;
+    background: black;
+}
+
+.item4 {
+    order:1;
+    background: pink;
+}
+
+.item5 {
+    background: yellow;
+}
+
+.item6 {
+    background: purple;
+}
+
+.item7 {
+    background: grey;
+}
+
+.item8 {
+    background: green;
+}
+
+.item9 {
+    background: blue;
+}
+
+.item10 {
+    background: brown;
+}
+
+
